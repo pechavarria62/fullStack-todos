@@ -1,9 +1,9 @@
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import SignupPage from './pages/SignupPage';
-import LoginPage from './pages/LoginPage';
-import Dashboard from './pages/Dashboard';
-import FolderView from './pages/FolderView';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import SignupPage from "./pages/SignupPage";
+import LoginPage from "./pages/LoginPage";
+import Dashboard from "./pages/Dashboard";
+import FolderView from "./pages/FolderView";
+import "./App.css";
 
 function App() {
   return (
@@ -15,7 +15,6 @@ function App() {
         <Route path="/folder/:id" element={<FolderView />} />
       </Routes>
     </Router>
-
   );
 }
 
